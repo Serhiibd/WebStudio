@@ -1,0 +1,44 @@
+p {
+  color: #757575;
+}
+.background-1 {
+  background-color: #2f303a;
+}
+.background-1 > h1 {
+  color: #ffffff;
+  font-family: "Roboto";
+}
+.web_ {
+  color: #1480f4;
+  font-family: "Raleway";
+}
+.studio_ {
+  color: #000000;
+  font-family: "Raleway";
+}
+.background-2 {
+  background-color: #f5f4fa;
+}
+.background-1_button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #2f303a;
+}
+footer * {
+  color: white;
+}
+.footer_a {
+  color: #ffffff;
+  opacity: 60%;
+}
+.web_footer {
+  color: #1480f4;
+  font-family: "Raleway";
+}
+.studio_footer {
+  color: #ffffff;
+  font-family: "Raleway";
+}
