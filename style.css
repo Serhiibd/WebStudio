@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 p {
   color: #757575;
@@ -9,15 +9,12 @@ p {
 }
 .background-1 > h1 {
   color: #ffffff;
-  font-family: "Roboto";
 }
 .web_ {
   color: #1480f4;
-  font-family: "Raleway";
 }
 .studio_ {
   color: #000000;
-  font-family: "Raleway";
 }
 .background-2 {
   background-color: #f5f4fa;
@@ -39,9 +36,7 @@ footer * {
 }
 .web_footer {
   color: #1480f4;
-  font-family: "Raleway";
 }
 .studio_footer {
   color: #ffffff;
-  font-family: "Raleway";
 }
