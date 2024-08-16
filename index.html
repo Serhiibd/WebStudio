@@ -28,21 +28,24 @@
   <body>
     <header>
       <div class="header_container">
-        <div class="header_container--logo"></div>
-        <h2 class="web_">Web<span class="studio_">Studio</span></h2>
+        <div class="header_container_left"> <div class="header_container--logo"> 
+          <h2 class="web_">Web<span class="studio_">Studio</span></h2>
+        </div>
+       
         <nav class="header_container_nav">
           <ul class="header_container_nav--list">
             <li><a href="">Студія</a></li>
             <li><a href="">Портфоліо</a></li>
             <li><a href="">Контакти</a></li>
           </ul>
-        </nav>
-        <div class="header_container_contact">
-          <a class="email" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-          <a class="telnum" href="tel:+380961111111">+38 096 111 11 11</a>
-        </div>
+        </nav></div>
+       <div class="header_container_right"><div class="header_container_contact">
+        <a class="email" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+        <a class="telnum" href="tel:+380961111111">+38 096 111 11 11</a>
+      </div></div>
+        
       </div>
     </header>
     <main>
@@ -59,76 +62,111 @@
           </div>
         </div>
       </section>
-      <section>
-        <div>
-          <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            accusamus voluptatem accusantium.
-          </p>
-        </div>
-        <div>
-          <h3>ПУНКТУАЛЬНІСТЬ</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            accusamus voluptatem accusantium.
-          </p>
-        </div>
-        <div>
-          <h3>ПЛАНУВАННЯ</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            accusamus voluptatem accusantium.
-          </p>
-        </div>
-        <div>
-          <h3>СУЧАСНІ ТЕХНОЛОГІІ</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            accusamus voluptatem accusantium.
-          </p>
-        </div>
-      </section>
-      <section>
-        <h2>Чим ми займаємося</h2>
-        <div>
-          <div><img src="./images/img(0).png" alt="" width="250" /></div>
-          <div><img src="./images/img(2).png" alt="" width="250" /></div>
-          <div><img src="./images/img(3).png" alt="" width="250" /></div>
+      <section class="section-1">
+        <div class="section-1_container">
+          <div class="section-1_container_item-wrapper">
+            <div class="section-1--itembox">
+              <h3 class="section-1--itembox_title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="section-1--itembox_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                accusamus voluptatem accusantium.
+              </p>
+            </div>
+            <div class="section-1--itembox">
+              <h3 class="section-1--itembox_title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="section-1--itembox_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                accusamus voluptatem accusantium.
+              </p>
+            </div>
+            <div class="section-1--itembox">
+              <h3 class="section-1--itembox_title">ПЛАНУВАННЯ</h3>
+              <p class="section-1--itembox_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                accusamus voluptatem accusantium.
+              </p>
+            </div>
+            <div class="section-1--itembox">
+              <h3 class="section-1--itembox_title">СУЧАСНІ ТЕХНОЛОГІІ</h3>
+              <p class="section-1--itembox_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                accusamus voluptatem accusantium.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
-      <section class="background-2">
-        <h2>Наша команда</h2>
-        <div id="od">
-          <img src="./images/img(4).jpg" alt="" width="250" height="250" />
-          <h3>Ігор Дем'яненко</h3>
-          <p class="peshki">Product Designer</p>
+      <section class="section-2">
+        <div class="section-2_container">
+          <h2 class="section-2_container--title">Чим ми займаємося</h2>
+          <div class="section-2--img_wrapper">
+            <div class="section-2--imgs">
+              <img
+                class="section-2--img"
+                src="./images/img(0).png"
+                alt=""
+                width="250"
+              />
+            </div>
+            <div class="section-2--imgs">
+              <img
+                class="section-2--img"
+                src="./images/img(2).png"
+                alt=""
+                width="250"
+              />
+            </div>
+            <div class="section-2--imgs">
+              <img
+                class="section-2--img"
+                src="./images/img(3).png"
+                alt=""
+                width="250"
+              />
+            </div>
+          </div>
         </div>
-        <div>
-          <img src="./images/img(5).jpg" alt="" width="250" height="250" />
-          <h3>Ольга Рєпіна</h3>
-          <p class="peshki">Frontend Developer</p>
-        </div>
-        <div>
-          <img src="./images/img(6).jpg" alt="" width="250" height="250" />
-          <h3>Микола Тарасов</h3>
-          <p class="peshki">Marketing</p>
-        </div>
-        <div>
-          <img src="./images/img(7).jpg" alt="" width="250" height="250" />
-          <h3>Михайло Єрмаков</h3>
-          <p class="peshki">UI Designer</p>
+      </section>
+      <section class="section-3">
+        <div class="section-3_container">
+          <h2 class="section-3_container--title">Наша команда</h2>
+          <div class="section-3_content-wrapper">
+          <div class="section-3_namecard">
+            <img class="section-3_img" src="./images/img(4).jpg" alt="1" width="250" height="250" />
+            <h3 class="section-3_namecard_name">Ігор Дем'яненко</h3>
+            <p class="section-3_namecard_text">Product Designer</p>
+          </div>
+          <div class="section-3_namecard">
+            <img class="section-3_img" src="./images/img(6).jpg" alt="2" width="250" height="250" />
+            <h3 class="section-3_namecard_name">Ольга Рєпіна</h3>
+            <p class="section-3_namecard_text">Frontend Developer</p>
+          </div>
+          <div class="section-3_namecard">
+            <img class="section-3_img" src="./images/img(5).jpg" alt="3" width="250" height="250" />
+            <h3 class="section-3_namecard_name">Микола Тарасов</h3>
+            <p class="section-3_namecard_text">Marketing</p>
+          </div>
+          <div class="section-3_namecard">
+            <img class="section-3_img" src="./images/img(7).jpg" alt="4" width="250" height="250" />
+            <h3 class="section-3_namecard_name">Михайло Єрмаков</h3>
+            <p class="section-3_namecard_text">UI Designer</p>
+          </div>
         </div>
       </section>
     </main>
     <footer>
-      <section>
-        <h2 class="web_footer">Web<span class="studio_footer">Studio</span></h2>
-        <h3>м. Київ, пр-т Лесі Українки, 26</h3>
-        <a class="footer_a" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        >
-        <a class="footer_a" href="tel:+380961111111">+38 096 111 11 11</a>
+      <section class="footer_section">
+        <div class="footer_container">
+          <div class="footer_wrap">
+            <h2 class="web_footer">Web<span class="studio_footer">Studio</span></h2>
+            <h3 class="footer_adress">м. Київ, пр-т Лесі Українки, 26</h3>
+            <a class="footer_email" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+            <a class="footer_tel" href="tel:+380961111111">+38 096 111 11 11</a>
+          </div>
+        </div>
+       
       </section>
     </footer>
   </body>

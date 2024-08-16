@@ -16,19 +16,32 @@ p {
   color: #000000;
   font-family: "Raleway";
 }
-.background-2 {
-  background-color: #f5f4fa;
-}
 
-footer {
-  background-color: #2f303a;
-}
 footer * {
   color: white;
 }
-.footer_a {
+.footer_email {
   color: #ffffff;
   opacity: 60%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 9px;
+}
+.footer_tel {
+  color: #ffffff;
+  opacity: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_tel,
+.footer_email {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
 .web_footer {
   color: #1480f4;
@@ -63,10 +76,15 @@ a {
 
 .header_container--logo {
   display: flex;
+  margin-left: 215px;
 }
 
 .header_container_nav--list li:not(:last-child) {
   margin-right: 50px;
+}
+
+.header_container_nav--list li {
+  padding-top: 9px; /* Коряво але працює)*/
 }
 
 .header_container_nav--list li a:hover {
@@ -119,4 +137,184 @@ a {
 }
 .hero_title {
   display: block;
+}
+.section-1_container_item-wrapper {
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+  margin: 94px auto;
+}
+
+.section-1_container--itembox {
+  max-width: 270px;
+  display: flex;
+  flex-direction: row;
+}
+
+.section-1_container--itembox_title {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+}
+
+.section-1_container--itembox_text {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.section-1_container_item-wrapper
+  .section-1_container--itembox:not(:last-child) {
+  padding-right: 30px; /*Може не спрацювати!*/
+}
+
+.section-2_container {
+  width: 100%;
+  margin-bottom: 94px;
+}
+
+.section-2--imgs {
+  display: inline-block;
+}
+
+.section-2--img_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.section-2--img {
+  display: inline-block;
+  width: 370px;
+  height: 294px;
+  top: 1058px;
+  left: 615px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.section-2--img_wrapper .section-2--imgs:not(:last-child) {
+  margin-right: 30px;
+}
+
+.section-2_container--title {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-3_container {
+  width: 100%;
+}
+
+.section-3_container--title {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.section-3_namecard {
+  background-color: #ffffff;
+  width: 270px;
+  height: 368px;
+  top: 1632px;
+  left: 215px;
+  gap: 0px;
+  border-radius: 0px 0px 4px 4px;
+  opacity: 0px;
+  display: inline-block;
+  max-width: 270px;
+  margin-bottom: 94px;
+}
+.section-3_img {
+  width: 270px;
+}
+
+.section-3_content-wrapper .section-3_namecard:not(:last-child) {
+  margin-right: 30px;
+}
+
+.section-3_namecard_name {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.section-3_namecard_text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+footer {
+  background-color: #2f303a;
+  margin-top: -20px;
+}
+
+.section-3 {
+  background-color: #f5f4fa;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.section-3_content-wrapper {
+  max-width: 1170px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.footer_container {
+  width: 100%;
+  display: flex;
+}
+.footer_wrap {
+  margin-left: 215px;
+  margin-bottom: 60px;
+}
+
+.web_footer,
+.studio_footer {
+  padding-bottom: 20px;
+  padding-top: 60px;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.52px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.footer_adress {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.header_container_left {
+  display: flex;
 }
