@@ -69,22 +69,19 @@ a {
 
 .header_container {
   display: flex;
-  width: 92%;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1170px;
 }
 
 .header_container--logo {
   display: flex;
-  margin-left: 215px;
 }
 
 .header_container_nav--list li:not(:last-child) {
   margin-right: 50px;
-}
-
-.header_container_nav--list li {
-  padding-top: 9px; /* Коряво але працює)*/
 }
 
 .header_container_nav--list li a:hover {
@@ -98,12 +95,12 @@ a {
 .telnum,
 .email {
   color: #757575;
-  transition: ease-in-out 0.3s;
 }
 
 .telnum:hover,
 .email:hover {
   color: #2196f3;
+  transition: ease-in-out 0.3s;
 }
 .hero_container {
   width: 100%;
@@ -144,11 +141,15 @@ a {
   display: flex;
   margin: 94px auto;
 }
+.section-1_container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
 
 .section-1_container--itembox {
   max-width: 270px;
   display: flex;
-  flex-direction: row;
 }
 
 .section-1_container--itembox_title {
@@ -169,12 +170,14 @@ a {
 
 .section-1_container_item-wrapper
   .section-1_container--itembox:not(:last-child) {
-  padding-right: 30px; /*Може не спрацювати!*/
+  margin-right: 30px; /*Може не спрацювати!*/
 }
 
 .section-2_container {
   width: 100%;
   margin-bottom: 94px;
+  margin: 0 auto;
+  max-width: 1170px;
 }
 
 .section-2--imgs {
@@ -215,6 +218,8 @@ a {
 
 .section-3_container {
   width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 .section-3_container--title {
@@ -231,13 +236,6 @@ a {
 
 .section-3_namecard {
   background-color: #ffffff;
-  width: 270px;
-  height: 368px;
-  top: 1632px;
-  left: 215px;
-  gap: 0px;
-  border-radius: 0px 0px 4px 4px;
-  opacity: 0px;
   display: inline-block;
   max-width: 270px;
   margin-bottom: 94px;
@@ -288,9 +286,10 @@ footer {
 .footer_container {
   width: 100%;
   display: flex;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 .footer_wrap {
-  margin-left: 215px;
   margin-bottom: 60px;
 }
 
@@ -317,4 +316,5 @@ footer {
 
 .header_container_left {
   display: flex;
+  align-items: center;
 }
