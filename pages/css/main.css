@@ -46,7 +46,7 @@
   width: 100%;
   max-width: 1170px;
   display: flex;
-  flex-direction: column; /* Keeps the lines of cards stacked vertically */
+  flex-direction: column;
   margin: 0 auto;
   margin-bottom: 94px;
 }
@@ -55,7 +55,7 @@
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
-  flex: 1; /* Makes sure all cards in a line take up equal space */
+  flex: 1;
 }
 
 .main_content--first_line,
