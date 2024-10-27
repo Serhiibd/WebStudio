@@ -54,6 +54,39 @@ header {
   margin-right: 50px;
 }
 
+.header_right {
+  display: flex;
+  gap: 30px;
+}
+
+.header_right--part {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header_right--part:hover svg path,
+.header_right--part:hover a {
+  fill: #2196f3;
+  color: #2196f3;
+  transition: 0.3s ease-in-out;
+}
+
+.header_right--part svg path,
+.header_right--part a {
+  transition: 0.3s ease-in-out;
+}
+
+.header_right--link {
+  transition: 0.5s;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
 .header_right--link {
   transition: 0.5s;
   font-family: Roboto;
