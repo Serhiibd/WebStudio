@@ -228,3 +228,43 @@
   height: 70px;
   display: block;
 }
+
+.main_fifth--container {
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+}
+
+.main_fifth--section {
+  margin-top: 94px;
+}
+
+.main_fifth--title {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.main_fifth--cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 94px;
+}
+
+.main_fifth--card {
+  border: 2px solid #afb1b8;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+  padding: 16px 32px;
+}
+
+.main_fifth--card:hover {
+  cursor: pointer;
+}
