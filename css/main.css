@@ -172,6 +172,21 @@
   border-radius: 0px 0px 4px 4px;
 }
 
+.main_fourth--card--socials svg:hover path {
+  fill: #2196f3;
+  transition: 0.5s ease-in-out;
+}
+
+.main_fourth--card--socials svg path,
+.main_fourth--card--socials svg g path {
+  transition: 0.5s ease-in-out;
+}
+
+.main_fourth--card--socials svg:hover g path {
+  fill: #ffffff;
+  transition: 0.5s ease-in-out;
+}
+
 .main_second--card--box {
   width: 270px;
   height: 120px;
@@ -263,8 +278,20 @@
   border-radius: 4px;
   justify-content: center;
   padding: 16px 32px;
+  transition: 0.3s ease-in-out;
 }
 
 .main_fifth--card:hover {
   cursor: pointer;
+  border-color: #2196f3;
+  transition: 0.3s ease-in-out;
+}
+
+.main_fifth--card:hover svg path {
+  fill: #2196f3;
+  transition: 0.3s ease-in-out;
+}
+
+.main_fifth--card svg path {
+  transition: 0.5s ease-in-out;
 }
