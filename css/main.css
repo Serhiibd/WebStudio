@@ -179,7 +179,7 @@
 
 .main_fourth--card--socials svg path,
 .main_fourth--card--socials svg g path {
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .main_fourth--card--socials svg:hover g path {
@@ -293,5 +293,28 @@
 }
 
 .main_fifth--card svg path {
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.main_third--img--text {
+  position: absolute;
+  width: 100%;
+  top: 224px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  padding-bottom: 27px;
+  padding-top: 27px;
+  background-color: #2f303acc;
+  text-transform: uppercase;
+}
+
+.main_third--img {
+  position: relative;
 }

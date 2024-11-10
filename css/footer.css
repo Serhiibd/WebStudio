@@ -8,6 +8,8 @@ footer {
   padding-bottom: 60px;
   max-width: 1170px;
   margin: 0 auto;
+  display: flex;
+  gap: 70px;
 }
 
 footer img {
@@ -43,4 +45,36 @@ address {
   flex-direction: column;
   display: flex;
   font-style: normal;
+}
+
+.footer_right--first--title {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  text-underline-position: from-font;
+  text-transform: uppercase;
+  text-decoration-skip-ink: none;
+}
+
+.footer_right--first--title {
+  margin-bottom: 20px;
+}
+
+.footer_right--first--svgs svg:hover path {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  fill: #2196f3;
+}
+
+.footer_right--first--svgs svg:hover g path {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  fill: #ffffff;
+}
+
+.footer_right--first--svgs svg path {
+  transition: 0.3s ease-in-out;
 }
