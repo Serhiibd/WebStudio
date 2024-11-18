@@ -47,6 +47,13 @@ address {
   font-style: normal;
 }
 
+.footer_right {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 93px;
+}
+
 .footer_right--first--title {
   color: #ffffff;
   font-family: Roboto;
@@ -77,4 +84,63 @@ address {
 
 .footer_right--first--svgs svg path {
   transition: 0.3s ease-in-out;
+}
+
+.footer_right--second {
+  max-width: 570px;
+}
+
+.footer_right--second--title {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.footer_right--second form {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.footer_right--second form input {
+  width: 358px;
+  height: 50px;
+  min-height: 50px;
+  color: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #ffffff4d;
+  box-shadow: 0px 4px 4px 0px #00000026;
+  outline: none;
+  background-color: #ffffff00;
+}
+
+.footer_right--second--btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 0;
+  outline: none;
+  color: white;
+  background-color: #2196f3;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px 0px #00000026;
+
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  cursor: pointer;
 }
