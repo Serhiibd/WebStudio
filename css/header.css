@@ -33,20 +33,40 @@ header {
   display: flex;
 }
 
-.header_navigation--item a {
+.header_navigation--item a:hover,
+.header_right--link:hover {
   transition: 0.5s;
-  font-family: Roboto;
+  color: #2196f3;
+}
+
+.header_navigation--item a {
+  transition: color 0.5s ease;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 16.41px;
   letter-spacing: 0.02em;
   color: #212121;
+  position: relative;
+  overflow: hidden;
 }
 
-.header_navigation--item a:hover,
-.header_right--link:hover {
-  transition: 0.5s;
-  color: #2196f3;
+.header_navigation--item a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2.5px;
+  background-color: #007bff;
+  transition: all 0.3s ease-in-out;
+  top: 40px;
+  border-radius: 10px;
+}
+
+.header_navigation--item a:hover::after {
+  left: 0;
+  width: 100%;
 }
 
 .header_navigation--item:not(:last-child),
