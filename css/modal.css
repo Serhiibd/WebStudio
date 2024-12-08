@@ -6,6 +6,7 @@
   bottom: 0;
   background-color: #00000033;
   opacity: 1;
+  transition: opacity 0.5s ease;
 }
 
 .backdrop.is-hidden {
@@ -22,6 +23,7 @@
   height: 581px;
   border-radius: 4px;
   background-color: #ffffff;
+  transition: opacity 0.5s ease, transform 0.5 ease;
 }
 
 .modal_close--wrapper {

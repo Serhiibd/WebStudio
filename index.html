@@ -715,7 +715,7 @@
       </div>
       <h3 class="modal_title">Залиште свої дані, ми вам передзвонимо</h3>
 
-      <form>
+      <form id="modal_form">
         <div class="form_field">
           <label for="name">
             Ім'я <br>
@@ -729,7 +729,7 @@
               </clipPath>
               </defs>
               </svg>
-              <input id="name" type="text">
+              <input required id="name" type="text">
           </label>
          
         </div>
@@ -746,7 +746,7 @@
               </clipPath>
               </defs>
               </svg>
-              <input id="tel" type="tel">
+              <input required id="tel" type="tel">
           </label>
 
         </div>
@@ -765,7 +765,7 @@
               </svg>
               
               
-              <input type="email" id="email">
+              <input required type="email" id="email">
           </label>
         </div>
         <div class="form_field">
@@ -775,7 +775,7 @@
           </label>
         </div>
         <div class="form_privacy-policy">
-                  <input type="checkbox">
+                  <input type="checkbox" id="accept">
                   <p class="form_privacy-policy--text">
                     Погоджуюся з розсилкою та приймаю <a style="color: #2196F3; text-decoration: underline;" href="#">Умови договору</a>
                   </p>
