@@ -50,32 +50,34 @@
   margin-bottom: 94px;
 }
 .main_content--card {
-  content: "";
+  height: 404px;
+  overflow: hidden;
   border: 1px solid #eeeeee;
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
-  flex: 1;
   transition: 0.2s ease-in-out;
   position: relative;
 }
 
 .main_content--card:hover .main_content--card--overlay {
-  opacity: 1;
+  transform: translateY(0);
+  top: 0;
+  height: 75%;
 }
 
 .main_content--card--overlay {
-  content: "";
   background-color: #2196f3e5;
   width: 370px;
   position: absolute;
-  height: 294px;
+  left: 0;
+  right: 0;
+  bottom: 0;
   transition: 0.2s ease-in;
-  opacity: 0;
+  transform: translateY(100%);
 }
 
 .main_content--card--overlay--text {
-  content: "";
   font-family: Roboto;
   font-size: 18px;
   font-weight: 400;
