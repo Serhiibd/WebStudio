@@ -8,8 +8,12 @@ body {
 }
 
 header {
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
 
 .header_container {
@@ -27,6 +31,11 @@ header {
 
 .header_logo {
   margin-right: 93px;
+  cursor: pointer;
+}
+
+.header_logo:hover {
+  animation: pulseScale 1s ease-in-out infinite;
 }
 
 .header_navigation {

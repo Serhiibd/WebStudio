@@ -45,6 +45,10 @@
   box-shadow: 0px 4px 4px 0px #00000026;
 }
 
+.main_first--btn:hover {
+  animation: animateBtn 1.5s linear infinite;
+}
+
 .main_second--section {
   margin-top: 94px;
 }
@@ -194,6 +198,10 @@
   margin-bottom: 30px;
 }
 
+.main_second--card {
+  cursor: pointer;
+}
+
 #card_box-first,
 #card_box-second,
 #card_box-third,
@@ -211,9 +219,16 @@
   background-repeat: no-repeat;
   width: 70px;
   height: 70px;
+  cursor: pointer;
   display: block;
 }
 
+.main_second--card:hover #card_box-first,
+.main_second--card:hover #card_box-second,
+.main_second--card:hover #card_box-third,
+.main_second--card:hover #card_box-fourth {
+  animation: animateWhyUs 3s ease-in-out;
+}
 #card_box-second:before {
   content: "";
   background-image: url("../img/clock 1.png");
