@@ -116,13 +116,3 @@ header {
   letter-spacing: 0.02em;
   color: #757575;
 }
-
-.header_right--link {
-  transition: 0.5s;
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 16.41px;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
