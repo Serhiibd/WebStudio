@@ -64,9 +64,6 @@ address {
   text-underline-position: from-font;
   text-transform: uppercase;
   text-decoration-skip-ink: none;
-}
-
-.footer_right--first--title {
   margin-bottom: 20px;
 }
 
