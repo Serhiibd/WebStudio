@@ -1,7 +1,7 @@
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
-  background-color: #ffffff;
+  background-color: $basicWhite;
   position: fixed;
   width: 100%;
   z-index: 2;
@@ -10,8 +10,8 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 1170px;
-    margin: 0 auto;
+    max-width: $widthContainer;
+    margin: $centeredContainer;
   }
 
   &_left {
@@ -37,18 +37,18 @@
       font-weight: 500;
       line-height: 16.41px;
       letter-spacing: 0.02em;
-      color: #212121;
+      color: $lightBlack;
       position: relative;
       overflow: hidden;
 
       &:hover {
         transition: 0.5s;
-        color: #2196f3;
+        color: $lightBlue;
       }
     }
 
     &--item:first-child a {
-      color: #2196f3;
+      color: $lightBlue;
     }
 
     &--item.active {
@@ -60,7 +60,7 @@
         left: 0;
         width: 100%;
         height: 2.5px;
-        background-color: #2196f3;
+        background-color: $lightBlue;
         transition: 0.3s ease-in-out;
         top: 40px;
         border-radius: 10px;
@@ -90,8 +90,8 @@
       &:hover {
         svg path,
         a {
-          fill: #2196f3;
-          color: #2196f3;
+          fill: $lightBlue;
+          color: $lightBlue;
           transition: 0.3s ease-in-out;
         }
       }
@@ -111,7 +111,7 @@
       }
       &:hover {
         transition: 0.5s;
-        color: #2196f3;
+        color: $lightBlue;
       }
     }
   }

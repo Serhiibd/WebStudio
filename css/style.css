@@ -519,12 +519,12 @@
   color: #ffffff;
   text-transform: uppercase;
 }
-.footer_right--second form {
+.footer_right--second .footer_form {
   display: flex;
   flex-direction: row;
   gap: 12px;
 }
-.footer_right--second form input {
+.footer_right--second .footer_form--input {
   width: 358px;
   height: 50px;
   min-height: 50px;
@@ -534,6 +534,7 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1490196078);
   outline: none;
   background-color: rgba(255, 255, 255, 0);
+  padding-left: 14px;
 }
 .footer_right--second--btn {
   width: 200px;
@@ -557,4 +558,157 @@
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   cursor: pointer;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.backdrop .modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 528px;
+  height: 581px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1), transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.backdrop .modal_close--wrapper {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  padding-top: 8px;
+  padding-bottom: 2px;
+}
+.backdrop .modal_close--wrapper svg {
+  position: relative;
+  top: 0;
+  right: 8px;
+  cursor: pointer;
+}
+.backdrop .modal_title {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #212121;
+  margin-bottom: 12px;
+}
+.backdrop .modal form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.backdrop .modal form input:focus {
+  outline: none;
+  border-color: #2196f3;
+}
+.backdrop .modal form input:not([type=checkbox]) {
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-left: 40px;
+}
+.backdrop .modal form_field {
+  position: relative;
+}
+.backdrop .modal form_field svg {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+}
+.backdrop .modal form_field textarea {
+  width: 448px;
+  resize: none;
+  height: 120px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  padding: 12px 16px;
+}
+.backdrop .modal form_field textarea::-moz-placeholder {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(117, 117, 117, 0.5019607843);
+}
+.backdrop .modal form_field textarea::placeholder {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: rgba(117, 117, 117, 0.5019607843);
+}
+.backdrop .modal form_field label {
+  color: #757575;
+}
+.backdrop .modal form_field .form_privacy-policy {
+  display: flex;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #757575;
+}
+.backdrop .modal form_field .form_privacy-policy--text {
+  margin-left: 8.38px;
+}
+.backdrop .modal form_field:focus-within svg g path {
+  fill: #2196f3;
+}
+.backdrop .modal form .form_submit--wrapper {
+  margin-top: 30px;
+}
+.backdrop .modal form .form_submit--btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #2196f3;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1490196078);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
 }/*# sourceMappingURL=style.css.map */
