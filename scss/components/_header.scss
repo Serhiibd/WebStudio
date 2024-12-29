@@ -104,14 +104,14 @@
       font-weight: 500;
       line-height: 16.41px;
       letter-spacing: 0.02em;
-      color: #757575;
+      color: $lightGray;
 
       &:not(:last-child) {
         margin-right: 50px;
       }
       &:hover {
         transition: 0.5s;
-        color: $lightBlue;
+        color: #2196f3;
       }
     }
   }
