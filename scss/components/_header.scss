@@ -47,10 +47,6 @@
       }
     }
 
-    &--item:first-child a {
-      color: $lightBlue;
-    }
-
     &--item.active {
       a::after {
         content: "";
@@ -66,6 +62,10 @@
         border-radius: 10px;
         z-index: 5;
       }
+    }
+
+    &--item.active.light-blue a {
+      color: #2196f3;
     }
 
     &--item:not(:last-child) {

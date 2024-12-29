@@ -85,9 +85,6 @@
   transition: 0.5s;
   color: #2196f3;
 }
-.header_navigation--item:first-child a {
-  color: #2196f3;
-}
 .header_navigation--item.active a::after {
   content: "";
   position: absolute;
@@ -101,6 +98,9 @@
   top: 40px;
   border-radius: 10px;
   z-index: 5;
+}
+.header_navigation--item.active.light-blue a {
+  color: #2196f3;
 }
 .header_navigation--item:not(:last-child) {
   margin-right: 50px;
@@ -214,6 +214,9 @@
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.main_second--card {
+  cursor: pointer;
 }
 .main_second--card #card_box-first, .main_second--card #card_box-second, .main_second--card #card_box-third, .main_second--card #card_box-fourth {
   position: relative;
