@@ -131,16 +131,15 @@
   transition: 0.5s;
 }
 .main_first-cards .card img {
-  width: 370px;
+  width: 369px;
 }
 .main_first-cards .card_title {
   font-family: Roboto;
   font-size: 18px;
   font-weight: 700;
   line-height: 36px;
-  letter-spacing: 0.06em;
-  text-align: left;
   color: #212121;
+  letter-spacing: 0.06em;
   margin-top: 20px;
   margin-bottom: 4px;
   padding-left: 24px;
@@ -150,16 +149,13 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
-  letter-spacing: 0.03em;
-  text-align: left;
   color: #757575;
+  letter-spacing: 0.03em;
   padding-left: 24px;
   padding-bottom: 20px;
 }
 .main_first-cards .card:hover {
-  box-shadow: 2px 5px 7px 1px rgba(0, 0, 0, 0.1607843137);
-  box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.0588235294);
-  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1215686275);
+  box-shadow: 2px 5px 7px 1px rgba(0, 0, 0, 0.1607843137), 1px 5px 5px 1px rgba(0, 0, 0, 0.0588235294), 1px 2px 2px 1px rgba(0, 0, 0, 0.1215686275);
   transition: 0.5s;
   cursor: pointer;
 }

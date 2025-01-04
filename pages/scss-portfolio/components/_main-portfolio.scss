@@ -11,37 +11,22 @@
         max-width: 370px;
         transition: 0.5s;
         img {
-          width: 370px;
+          width: 369px;
         }
         &_title {
-          font-family: Roboto;
-          font-size: 18px;
-          font-weight: 700;
-          line-height: 36px;
-          letter-spacing: 0.06em;
-          text-align: left;
-          color: #212121;
-
+          @include mainTextStyles(700, 36px, #212121, 0.06em, 18px);
           margin-top: 20px;
           margin-bottom: 4px;
           padding-left: 24px;
         }
         &_text {
-          font-family: Roboto;
-          font-size: 16px;
-          font-weight: 400;
-          line-height: 30px;
-          letter-spacing: 0.03em;
-          text-align: left;
-          color: #757575;
-
+          @include mainTextStyles(400, 30px, #757575, 0.03em, 16px);
           padding-left: 24px;
           padding-bottom: 20px;
         }
         &:hover {
-          box-shadow: 2px 5px 7px 1px #00000029;
-          box-shadow: 1px 5px 5px 1px #0000000f;
-          box-shadow: 1px 2px 2px 1px #0000001f;
+          box-shadow: 2px 5px 7px 1px #00000029, 1px 5px 5px 1px #0000000f,
+            1px 2px 2px 1px #0000001f;
 
           transition: 0.5s;
           cursor: pointer;
