@@ -191,7 +191,7 @@
 .main_first-cards .card:hover .card-overlay {
   transform: translateY(0);
   top: 0;
-  height: 75%;
+  height: 72.8%;
 }
 .main_container {
   width: 100%;
