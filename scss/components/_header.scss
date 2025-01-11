@@ -12,6 +12,7 @@
     width: 100%;
     max-width: $widthContainer;
     margin: $centeredContainer;
+    padding: 0px 20px;
   }
 
   &_left {
@@ -77,6 +78,10 @@
     display: flex;
     gap: 30px;
 
+    &--mobile {
+      display: none;
+    }
+
     &--part {
       display: flex;
       align-items: center;
@@ -116,3 +121,5 @@
     }
   }
 }
+
+@import "./../adaptive/header-adaptive";
