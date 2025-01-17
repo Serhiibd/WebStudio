@@ -273,6 +273,8 @@
   margin: 0 auto;
   display: flex;
   gap: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .footer img {
   margin-bottom: 20px;
