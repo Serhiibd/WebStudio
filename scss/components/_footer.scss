@@ -8,8 +8,8 @@
     margin: 0 auto;
     display: flex;
     gap: 70px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   img {
     margin-bottom: 20px;
@@ -40,6 +40,9 @@
     flex-direction: column;
     display: flex;
     font-style: normal;
+    .footer_address {
+      width: 231px;
+    }
   }
   &_right {
     display: flex;
@@ -60,6 +63,8 @@
         margin-bottom: 20px;
       }
       &--svgs {
+        display: flex;
+        gap: 5px;
         svg {
           path {
             transition: 0.3s ease-in-out;
@@ -133,3 +138,5 @@
     }
   }
 }
+
+@import "../adaptive/footer-adaptive";

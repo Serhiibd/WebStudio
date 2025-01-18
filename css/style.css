@@ -198,7 +198,8 @@
   font-size: 44px;
   font-weight: 900;
   line-height: 60px;
-  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
   text-align: center;
   color: #ffffff;
   margin-top: 200px;
@@ -468,13 +469,6 @@
   transition: 0.3s ease-in-out;
 }
 
-@media screen and (max-width: 1310px) {
-  .footer_right--first--svgs {
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    gap: 5px;
-  }
-}
 @media screen and (max-width: 1190px) {
   .main_third--section {
     display: none;
@@ -510,23 +504,6 @@
     grid-template-columns: repeat(3, 4fr);
     gap: 20px;
   }
-  .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .footer_right--second--btn {
-    width: 100px !important;
-    font-size: 10px !important;
-  }
-  .footer_right--second--form--input {
-    width: 275px !important;
-  }
-}
-@media screen and (max-width: 865px) {
-  .footer_right--second {
-    display: none;
-  }
 }
 @media screen and (max-width: 795px) {
   .main_fifth--cards {
@@ -547,8 +524,11 @@
   }
 }
 @media screen and (max-width: 515px) {
+  .main_first--title {
+    line-height: 50px;
+  }
   .main_first--section {
-    background-position: left;
+    background-position: center;
   }
 }
 @media screen and (max-width: 490px) {
@@ -565,9 +545,6 @@
   .main_first--title {
     font-size: 27px;
     max-width: 290px;
-  }
-  .footer_right--first {
-    display: none;
   }
 }
 @media screen and (max-width: 375px) {
@@ -595,8 +572,8 @@
   margin: 0 auto;
   display: flex;
   gap: 70px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .footer img {
   margin-bottom: 20px;
@@ -628,6 +605,9 @@
   display: flex;
   font-style: normal;
 }
+.footer address .footer_address {
+  width: 231px;
+}
 .footer_right {
   display: flex;
   justify-content: space-between;
@@ -646,6 +626,10 @@
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   margin-bottom: 20px;
+}
+.footer_right--first--svgs {
+  display: flex;
+  gap: 5px;
 }
 .footer_right--first--svgs svg path {
   transition: 0.3s ease-in-out;
@@ -714,6 +698,39 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 1225px) {
+  .footer_container {
+    justify-content: center;
+  }
+  .footer_right--second--form {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_right--second--form button {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 995px) {
+  .footer_container {
+    align-items: center;
+  }
+  .footer_right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 705px) {
+  .footer_container {
+    flex-direction: column;
+    align-items: start;
+  }
+}
+@media screen and (max-width: 405px) {
+  .footer_right--second--form--input {
+    width: 270px;
+  }
+}
 .backdrop {
   position: fixed;
   top: 0;

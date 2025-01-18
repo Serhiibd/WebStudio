@@ -273,8 +273,8 @@
   margin: 0 auto;
   display: flex;
   gap: 70px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .footer img {
   margin-bottom: 20px;
@@ -306,6 +306,9 @@
   display: flex;
   font-style: normal;
 }
+.footer address .footer_address {
+  width: 231px;
+}
 .footer_right {
   display: flex;
   justify-content: space-between;
@@ -324,6 +327,10 @@
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   margin-bottom: 20px;
+}
+.footer_right--first--svgs {
+  display: flex;
+  gap: 5px;
 }
 .footer_right--first--svgs svg path {
   transition: 0.3s ease-in-out;
@@ -390,4 +397,38 @@
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1490196078);
   cursor: pointer;
+}
+
+@media screen and (max-width: 1225px) {
+  .footer_container {
+    justify-content: center;
+  }
+  .footer_right--second--form {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_right--second--form button {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 995px) {
+  .footer_container {
+    align-items: center;
+  }
+  .footer_right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 705px) {
+  .footer_container {
+    flex-direction: column;
+    align-items: start;
+  }
+}
+@media screen and (max-width: 405px) {
+  .footer_right--second--form--input {
+    width: 270px;
+  }
 }/*# sourceMappingURL=portfolio.css.map */
