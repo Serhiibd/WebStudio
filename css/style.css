@@ -739,6 +739,7 @@
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
+  z-index: 98;
   transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop.is-hidden {
@@ -885,4 +886,41 @@
   text-underline-position: from-font;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
+}
+
+@media screen and (max-width: 560px) {
+  .backdrop .modal {
+    width: 400px;
+    height: 610px;
+  }
+  .backdrop .modal form .form_field {
+    width: 370px;
+  }
+  .backdrop .modal form .form_field input:not([type=checkbox]),
+  .backdrop .modal form .form_field textarea {
+    width: 100%;
+  }
+  .backdrop .modal form .form_privacy-policy {
+    display: flex;
+    gap: 8px;
+  }
+  .backdrop .modal form .form_privacy-policy--text {
+    margin-left: 0;
+    max-width: 280px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .backdrop .modal {
+    width: 300px;
+  }
+  .backdrop .modal form .form_field {
+    width: 250px;
+  }
+  .backdrop .modal form .form_field input:not([type=checkbox]),
+  .backdrop .modal form .form_field textarea {
+    width: 100%;
+  }
+  .backdrop .modal form .form_privacy-policy--text {
+    max-width: 220px;
+  }
 }/*# sourceMappingURL=style.css.map */
