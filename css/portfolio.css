@@ -88,6 +88,25 @@
 .header_right--mobile {
   display: none;
 }
+.header_right--mobile--list {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  background-color: #ffffff;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 1s ease-in-out;
+  transform: translateX(100%);
+}
+.header_right--mobile--list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+}
 .header_right--part {
   display: flex;
   align-items: center;
