@@ -1,0 +1,14 @@
+@media screen and (max-width: 600px) {
+  .main {
+    &_nav {
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      gap: 10px;
+      &--item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

@@ -281,6 +281,18 @@
   color: white;
 }
 
+@media screen and (max-width: 600px) {
+  .main_nav {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+  }
+  .main_nav--item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .footer {
   background-color: #2f303a;
 }
