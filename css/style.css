@@ -131,6 +131,15 @@
   flex-direction: column;
   gap: 15px;
   padding: 10px;
+  transform: translateY(-100%);
+}
+.header_right--mobile--list ul li,
+.header_right--mobile--list ul a {
+  transition: 0.5s ease-in-out;
+}
+.header_right--mobile--list ul li:hover,
+.header_right--mobile--list ul a:hover {
+  color: #2196f3;
 }
 .header_right--part {
   display: flex;
